@@ -9,7 +9,7 @@ import about from "../components/about/about.vue"
 
 const routes = [
     {
-        path: "/IG-HistoryAPP",
+        path: "/",
         name: "app",
         component: store.state.display.isMobile ? mLayout : Layout,
         children: [
