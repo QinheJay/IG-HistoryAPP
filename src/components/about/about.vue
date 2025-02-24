@@ -13,7 +13,7 @@ const scrollToBottom = async (frame) => {
         <n-flex class="block1" :align="'center'">
             <n-grid class="block1__inner">
                 <n-gi :span="8">
-                    <!-- <n-avatar class="avatar" :size="384" src="./template/about/avatar.jpg" /> -->
+                    <!-- <n-avatar class="avatar" :size="384" src="./IG-HistoryAPP/about/avatar.jpg" /> -->
                 </n-gi>
                 <n-gi :span="14" :offset="2">
                     <div style="font-size: 128px"><b>Hello!</b></div>

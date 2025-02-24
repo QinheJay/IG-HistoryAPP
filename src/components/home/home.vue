@@ -11,7 +11,7 @@ const showModal = ref(false);
                 <n-grid style="align-items: center;">
                     <n-gi :span="12">
                         <n-flex :justify="'center'">
-                            <!-- <n-image :width="220" src="./template/home/" preview-disabled></n-image> -->
+                            <!-- <n-image :width="220" src="./IG-HistoryAPP/home/" preview-disabled></n-image> -->
                         </n-flex>
                     </n-gi>
                     <n-gi :span="12">

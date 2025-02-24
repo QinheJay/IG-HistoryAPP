@@ -9,7 +9,7 @@ import about from "../components/about/about.vue"
 
 const routes = [
     {
-        path: "/",
+        path: "/IG-HistoryAPP",
         name: "app",
         component: store.state.display.isMobile ? mLayout : Layout,
         children: [
@@ -38,7 +38,7 @@ const routes = [
 ];
 
 const router = createRouter({
-    history: createWebHashHistory('/template/'),
+    history: createWebHashHistory('/IG-HistoryAPP/'),
     routes,
 });
 
