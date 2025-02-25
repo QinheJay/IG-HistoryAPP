@@ -24,15 +24,6 @@ const scrollToBottom = async (frame) => {
             <n-divider />
             <n-grid :x-gap="24">
                 <n-gi :span="6">
-                    <h2>January 11, 2025</h2>
-                </n-gi>
-                <n-gi :span="18">
-                    <p></p>
-                </n-gi>
-            </n-grid>
-            <n-divider />
-            <n-grid :x-gap="24">
-                <n-gi :span="6">
                     <h2>January 27, 2025</h2>
                 </n-gi>
                 <n-gi :span="18">
@@ -43,21 +34,66 @@ const scrollToBottom = async (frame) => {
                         upcoming release, including pricing, user agreements, and selection of distribution regions.
                         With these completed, Milestone 1 is now fully finished. Additionally, I’ve designed the first
                         draft of the app icon. </p>
-                    <p><n-image style="border-radius: 12px;" src="/IG-HistoryAPP/development/appIconV1.jpg" width="72"></n-image></p>
+                    <p><n-image style="border-radius: 12px;" src="./IG-HistoryAPP/development/appIconV1.jpg"
+                            width="72"></n-image></p>
                     <p><b>Content Adjustments:</b></p>
                     <ol>
-                        <li>Removed the flashcard feature.</li>
-                        <li>Combined the flashcard section and study materials section under one unified syllabus.</li>
-                        <li>Each topic now includes both "Learn" and "Practice" sections.</li>
-                        <li>The "Practice" section will include a mistake collection feature (still to be finalized).
+                        <li>
+                            <p>Removed the flashcard feature.</p>
+                        </li>
+                        <li>
+                            <p>Combined the flashcard section and study materials section under one unified
+                                syllabus.</p>
+                        </li>
+                        <li>
+                            <p>Each topic now includes both "Learn" and "Practice" sections.</p>
+                        </li>
+                        <li>
+                            <p>The "Practice" section will include a mistake collection feature (still to be
+                                finalized).</p>
                         </li>
                     </ol>
                     <p><b>Next Steps:</b></p>
                     <ol>
-                        <li>Organize the relevant PDFs for all topics.</li>
-                        <li>Finalize the mistake collection feature for the Practice section.</li>
-                        <li>Continue designing and refining the app icon.</li>
+                        <li>
+                            <p>Organize the relevant PDFs for all topics.</p>
+                        </li>
+                        <li>
+                            <p>Finalize the mistake collection feature for the Practice section.</p>
+                        </li>
+                        <li>
+                            <p>Continue designing and refining the app icon.</p>
+                        </li>
                     </ol>
+                </n-gi>
+            </n-grid>
+            <n-divider />
+            <n-grid :x-gap="24">
+                <n-gi :span="6">
+                    <h2>January 15, 2025</h2>
+                </n-gi>
+                <n-gi :span="18">
+                    <h2>Understanding iOS App Development Process and Completing Milestone 1 Tasks</h2>
+                    <p>Today, I took the time to understand all the necessary steps and tools required to develop and
+                        launch an iOS app. I completed the following tasks for Milestone 1:</p>
+                    <ol>
+                        <li>
+                            <p>Created a GitHub repository and initialized the Xcode project.</p>
+                        </li>
+                        <li>
+                            <p>Finalized the app features.</p>
+                        </li>
+                        <li>
+                            <p>Completed the navigation between pages.</p>
+                        </li>
+                        <li>
+                            <p>Developed initial prototypes for the "Study Materials" page and the "Flashcards" page.
+                            </p>
+                        </li>
+                    </ol>
+                    <p>Moving forward, I will continue to refine the display details for each page based on the initial
+                        prototypes and work on rendering the PDFs for the "Study Materials" section. I will also focus
+                        on enhancing the user interactions for the "Flashcards" section.</p>
                 </n-gi>
             </n-grid>
             <n-divider />
@@ -74,11 +110,15 @@ const scrollToBottom = async (frame) => {
                         exercises to help students improve their history knowledge in a targeted way.</p>
                     <p>Specifically, the app will have the following features:</p>
                     <ol>
-                        <li><b>Study Materials</b>: These will be provided in PDF format to help students consolidate
-                            key concepts and background knowledge.</li>
-                        <li><b>Past Exam Flashcards</b>: This section will include practice questions from past exams
-                            and help students track their progress. Each flashcard will record whether the student
-                            answered correctly or incorrectly and generate a list of mistakes for later review.</li>
+                        <li>
+                            <p><b>Study Materials</b>: These will be provided in PDF format to help students consolidate
+                                key concepts and background knowledge.</p>
+                        </li>
+                        <li>
+                            <p><b>Past Exam Flashcards</b>: This section will include practice questions from past exams
+                                and help students track their progress. Each flashcard will record whether the student
+                                answered correctly or incorrectly and generate a list of mistakes for later review.</p>
+                        </li>
                     </ol>
                     <p>In addition, I’ve set three milestones for the development process to ensure clear goals at each
                         stage:</p>
@@ -86,28 +126,52 @@ const scrollToBottom = async (frame) => {
                         <li>
                             <b>Milestone 1</b>:
                             <ul>
-                                <li>Joined the Apple Developer Program</li>
-                                <li>Created a GitHub repository and initialized the Xcode project</li>
-                                <li>Finalized app features</li>
-                                <li>Completed the homepage layout</li>
-                                <li>Set up page navigation</li>
+                                <li>
+                                    <p>Joined the Apple Developer Program</p>
+                                </li>
+                                <li>
+                                    <p>Created a GitHub repository and initialized the Xcode project</p>
+                                </li>
+                                <li>
+                                    <p>Finalized app features</p>
+                                </li>
+                                <li>
+                                    <p>Completed the homepage layout</p>
+                                </li>
+                                <li>
+                                    <p>Set up page navigation</p>
+                                </li>
                             </ul>
                         </li>
                         <li>
                             <b>Milestone 2</b>:
                             <ul>
-                                <li>Complete subpages</li>
-                                <li>Designed app icon</li>
-                                <li>Set up App Store Connect</li>
+                                <li>
+                                    <p>Complete subpages</p>
+                                </li>
+                                <li>
+                                    <p>Designed app icon</p>
+                                </li>
+                                <li>
+                                    <p>Set up App Store Connect</p>
+                                </li>
                             </ul>
                         </li>
                         <li>
                             <b>Milestone 3</b>:
                             <ul>
-                                <li>Test the app on TestFlight</li>
-                                <li>App distribution</li>
-                                <li>App review</li>
-                                <li>App release</li>
+                                <li>
+                                    <p>Test the app on TestFlight</p>
+                                </li>
+                                <li>
+                                    <p>App distribution</p>
+                                </li>
+                                <li>
+                                    <p>App review</p>
+                                </li>
+                                <li>
+                                    <p>App release</p>
+                                </li>
                             </ul>
                         </li>
                     </ul>
