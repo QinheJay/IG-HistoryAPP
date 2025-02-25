@@ -34,7 +34,7 @@ const isApp = router.currentRoute.value.name.includes('app')
         </n-layout-content>
         <n-layout-footer v-if="!isApp">
             <n-flex :justify="'right'">
-                <div>2025 Copyright © <span class="primaryColor">User</span>. All rights reserved.</div>
+                <div>2025 Copyright © <span class="primaryColor">Qinhe Yang</span>. All rights reserved.</div>
             </n-flex>
         </n-layout-footer>
     </n-layout>
