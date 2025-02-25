@@ -34,7 +34,7 @@ const scrollToBottom = async (frame) => {
                         upcoming release, including pricing, user agreements, and selection of distribution regions.
                         With these completed, Milestone 1 is now fully finished. Additionally, I’ve designed the first
                         draft of the app icon. </p>
-                    <p><n-image style="border-radius: 12px;" src="./IG-HistoryAPP/development/appIconV1.jpg"
+                    <p><n-image style="border-radius: 12px;" src="../../../IG-HistoryAPP/development/appIconV1.jpg"
                             width="72"></n-image></p>
                     <p><b>Content Adjustments:</b></p>
                     <ol>
