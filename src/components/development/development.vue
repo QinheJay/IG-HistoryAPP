@@ -15,10 +15,46 @@ const scrollToBottom = async (frame) => {
             <n-divider />
             <n-grid :x-gap="24">
                 <n-gi :span="6">
-                    <h2>January 11, 2025</h2>
+                    <h2>February 25, 2025</h2>
                 </n-gi>
                 <n-gi :span="18">
-                    <p></p>
+                    <h2>App Distribution and Submission to App Store</h2>
+                    <p>Today, I finally prepared to launch my app on the App Store. I started by validating the app
+                        distribution through Xcode's app validation tool. After confirming everything was working
+                        correctly, I uploaded the app to TestFlight for testing. Once the testing phase was complete and
+                        no issues were found, I submitted the app for review through App Store Connect. Now, I’m just
+                        waiting for the review approval, and once that’s done, my app will be ready for release!</p>
+                </n-gi>
+            </n-grid>
+            <n-divider />
+            <n-grid :x-gap="24">
+                <n-gi :span="6">
+                    <h2>February 20, 2025</h2>
+                </n-gi>
+                <n-gi :span="18">
+                    <h2>Defining the Practice Section UI and Refining Features</h2>
+                    <p>Today, I finalized the UI design for the Practice section, deciding to use a card-flip format
+                        that allows users to collect their favorite questions. I also added a new "Collection" section
+                        to store these favorites. However, there are still some features missing, such as user progress
+                        tracking, question formatting, and the watermark for the "Learn" section.</p>
+                    <p><b>Content Adjustments</b>:</p>
+                    <ol>
+                        <li>
+                            <p>Moved the Practice section out of the Study Materials page and created a dedicated
+                                Practice section.</p>
+                        </li>
+                        <li>
+                            <p>Considering that most of the questions in IG History are focused on memorization, I
+                                decided to remove the previous and next buttons in the Practice section.</p>
+                        </li>
+                        <li>
+                            <p>Reused the flashcard logic, now allowing users to categorize questions as "still
+                                learning" or "know."
+                            </p>
+                        </li>
+                    </ol>
+                    <p>Next, I will focus on implementing progress tracking for users, improving the question
+                        formatting, and adding the watermark to the "Learn" section.</p>
                 </n-gi>
             </n-grid>
             <n-divider />
@@ -34,7 +70,7 @@ const scrollToBottom = async (frame) => {
                         upcoming release, including pricing, user agreements, and selection of distribution regions.
                         With these completed, Milestone 1 is now fully finished. Additionally, I’ve designed the first
                         draft of the app icon. </p>
-                    <p><n-image style="border-radius: 12px;" src="../../../IG-HistoryAPP/development/appIconV1.jpg"
+                    <p><n-image style="border-radius: 12px;" src="https://hillib-cn-1-1259626091.cos.ap-shanghai.myqcloud.com/img/student/qinhe/IG-HistoryAPP/development/appIconV1.jpg"
                             width="72"></n-image></p>
                     <p><b>Content Adjustments:</b></p>
                     <ol>

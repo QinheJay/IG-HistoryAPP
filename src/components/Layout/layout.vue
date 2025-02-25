@@ -10,9 +10,10 @@ const isApp = router.currentRoute.value.name.includes('app')
         <n-layout-header v-if="!isApp" class="header">
             <n-flex :align="'center'" :justify="'space-between'">
                 <n-flex :align="'center'" class="logo" @click="router.push({ name: 'home' })">
-                    <!-- <n-avatar :width="24" style="border-radius: 8px;" src="./IG-HistoryAPP/logo/"></n-avatar> -->
+                    <n-avatar :width="24" style="border-radius: 8px;" src="https://hillib-cn-1-1259626091.cos.ap-shanghai.myqcloud.com/img/student/qinhe/IG-HistoryAPP/logo/apple-touch-icon.png"></n-avatar>
                     <b>
-                        A<span style="color: var(--primary-color)">PP</span>
+                        IG
+                        <span style="color: var(--primary-color)">History</span>
                     </b>
                 </n-flex>
                 <n-flex :size="24">

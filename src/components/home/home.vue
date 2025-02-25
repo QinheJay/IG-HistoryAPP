@@ -11,14 +11,19 @@ const showModal = ref(false);
                 <n-grid style="align-items: center;">
                     <n-gi :span="12">
                         <n-flex :justify="'center'">
-                            <!-- <n-image :width="220" src="./IG-HistoryAPP/home/" preview-disabled></n-image> -->
+                            <n-image :width="280" src="https://hillib-cn-1-1259626091.cos.ap-shanghai.myqcloud.com/img/student/qinhe/IG-HistoryAPP/home/appHome.png"
+                                preview-disabled></n-image>
                         </n-flex>
                     </n-gi>
                     <n-gi :span="12">
                         <div>
-                            <div class="slogan">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                            <div class="subtitle">Magnis neque lectus curabitur maximus consectetur natoque. Habitasse
-                                efficitur placerat class laoreet imperdiet natoque lacus.</div>
+                            <div class="slogan">Welcome to IG History</div>
+                            <div class="subtitle">Your Ultimate IGCSE History Companion</div>
+                            <p>IG History is an app specifically designed to support students preparing for the
+                                Cambridge IGCSE History (0470) exam. It currently includes comprehensive revision notes
+                                and exam-style practice questions for every unit in the “Twentieth Century:
+                                International Relations since 1919” Core Content and the “Russia, 1905–41” Depth Study.
+                            </p>
                         </div>
                         <div>
                             <n-button type="primary" round class="startBtn" @click="showModal = true">
@@ -44,12 +49,6 @@ const showModal = ref(false);
 
     .block1 {
         min-height: calc(100vh - 87px - 48px);
-
-        .n-image {
-            border: 2px solid black;
-            box-shadow: var(--boxShadow-deep);
-            border-radius: 20px;
-        }
 
         .slogan {
             font-size: 36px;
