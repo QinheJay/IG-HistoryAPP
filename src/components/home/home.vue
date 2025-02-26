@@ -1,7 +1,4 @@
 <script setup>
-import { ref } from 'vue';
-
-const showModal = ref(false);
 </script>
 
 <template>
@@ -26,7 +23,7 @@ const showModal = ref(false);
                             </p>
                         </div>
                         <div>
-                            <n-button type="primary" round class="startBtn" @click="showModal = true">
+                            <n-button type="primary" round class="startBtn" href="https://apps.apple.com/us/app/ig-history/id6741053306" tag="a" target="_blank">
                                 Start Here
                             </n-button>
                         </div>
